@@ -9,7 +9,7 @@ In this project, I:
 ## How to run
 To run this code, you have to install JDK 1.8 on your physical machine. This project use a Mininet platform in a Ubuntu virtual machine to simulate a simple SDN topology, and run a Floodlight Controller on the physical machine to send commands, thus control the traffic in the vm's network.
 
-**N.B. This project cannot be used independently. It has to be based on Java source code of Floodlight Controller. Due to the limitation of file size, I cannot upload it here.**
+**N.B. This project cannot be used independently. It has to be executed based on Java source code of Floodlight Controller. Due to the limitation of file size, I cannot upload it here.**
 
 The topology is as below:
 
@@ -17,15 +17,15 @@ The topology is as below:
 
 Sadly, I lost the script to set up a virtual network after reinstalling my OS.
 ## Source file functions
-- entity/Bucket.java -> Bucket in group table entry
-- entity/FlowEntry.java -> defines the necessary fields in flow table entry, as well as methods for setting and getting fields
-- entity/GroupEntry.java -> defines the necessary fields in group table entry, as well as methods for setting and getting fields
-- sdn/Add.java -> creates flow table entry and adds flow table to switch
-- sdn/Delete.java -> deletes flow table entry
-- sdn/GroupAdd.java -> adds group table entry and adds group table to switch
-- sdn/List.java -> displays flow table entry
-- tools/Constant.java -> defines constants used in the experiment
-- tools/FlowTableTool.java -> defines operations for adding flow table entry to the specified switch and clearing flow table entry
-- tools/HttpRequest.java -> defines GET and POST methods used to send HTTP requests to the specified URL of the controller
+- `entity/Bucket.java` -> Bucket in group table entry
+- `entity/FlowEntry.java` -> defines the necessary fields in flow table entry, as well as methods for setting and getting fields
+- `entity/GroupEntry.java` -> defines the necessary fields in group table entry, as well as methods for setting and getting fields
+- `sdn/Add.java` -> creates flow table entry and adds flow table to switch
+- `sdn/Delete.java` -> deletes flow table entry
+- `sdn/GroupAdd.java` -> adds group table entry and adds group table to switch
+- `sdn/List.java` -> displays flow table entry
+- `tools/Constant.java` -> defines constants used in the experiment
+- `tools/FlowTableTool.java` -> defines operations for adding flow table entry to the specified switch and clearing flow table entry
+- `tools/HttpRequest.java` -> defines GET and POST methods used to send HTTP requests to the specified URL of the controller
 ## Demo Video (Recorded In Chinese)
 [![Watch the video](https://img.youtube.com/vi/_5tFXJQIzi4/0.jpg)](https://vimeo.com/1024571265)

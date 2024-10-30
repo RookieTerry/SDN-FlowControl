@@ -8,8 +8,10 @@ In this project, I:
 - Managed IP address pairs and processed incoming data packets, improving threat detection and response times.
 ## How to run
 To run this code, you have to install JDK 1.8 on your physical machine, as well as the Floodlight Controller in Java. This project use a Mininet programme in Ubuntu virtual machine to simulate a simple SDN topology, and run a Floodlight Controller on the physical machine to send commands, thus control the traffic in the vm's network.
+
 The topology is as below:
 ![Snipaste_2024-10-30_00-50-42](https://github.com/user-attachments/assets/776e7a10-e8f1-4de0-bdaa-92e7b35ce638)
+
 Sadly, I lost the script to set up a virtual network after reinstalling my OS.
 ## Source file functions
 - entity/Bucket.java -> Bucket in group table entry
@@ -23,4 +25,4 @@ Sadly, I lost the script to set up a virtual network after reinstalling my OS.
 - tools/FlowTableTool.java -> defines operations for adding flow table entry to the specified switch and clearing flow table entry
 - tools/HttpRequest.java -> defines GET and POST methods used to send HTTP requests to the specified URL of the controller
 ## Demo Video (Recorded In Chinese)
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1024571265?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="SDN Demo Video"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+[![Watch the video](https://img.youtube.com/vi/_5tFXJQIzi4/0.jpg)](https://vimeo.com/1024571265)

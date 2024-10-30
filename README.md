@@ -7,7 +7,8 @@ In this project, I:
 - Analyzed switch edge port data to monitor traffic patterns, adjusting system states to optimize performance. 
 - Managed IP address pairs and processed incoming data packets, improving threat detection and response times.
 ## How to run
-To run this code, you have to install JDK 1.8 on your physical machine, as well as the Floodlight Controller in Java. This project use a Mininet platform in a Ubuntu virtual machine to simulate a simple SDN topology, and run a Floodlight Controller on the physical machine to send commands, thus control the traffic in the vm's network.
+To run this code, you have to install JDK 1.8 on your physical machine. This project use a Mininet platform in a Ubuntu virtual machine to simulate a simple SDN topology, and run a Floodlight Controller on the physical machine to send commands, thus control the traffic in the vm's network.
+**NB. This project cannot be used independently. It has to be based on Java source code of Floodlight Controller. Due to the limitation of file size, I cannot upload it here.**
 
 The topology is as below:
 
